@@ -16,6 +16,6 @@ void main() {
     (e) => e * 3,
   );
   print(douleNumber);
-  List<String> fruit = ['apple', 'banana', 'orange', 'mango'];
+  List fruit = ['apple', 'banana', 'orange', 'mango'];
   fruit.forEach((fruit) => print(fruit));
 }
