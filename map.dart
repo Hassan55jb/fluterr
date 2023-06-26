@@ -11,4 +11,18 @@ void main() {
   doctor.insertAll(0, ['Hassan', 'Raza', 'ahmad']);
   print(doctor);
   print(doctor.length);
+  print(studentName.runtimeType);
+  var dds = studentName.cast<String, int>();
+  print(dds.runtimeType);
+
+  var map = {
+    'one': 1,
+    'two': 2,
+    'three': 3,
+  };
+
+  var newMap = map.cast<String, Object>();
+
+  print(newMap.runtimeType);
+  print(newMap);
 }
